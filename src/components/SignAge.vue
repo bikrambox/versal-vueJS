@@ -4,7 +4,7 @@
   
   <script lang="js">
   import lottie from 'lottie-web';
-  import animationData from '@/assets/ship.json';
+  import animationData from '../assets/ship.json';
   
   export default {
     name: 'SigNage',

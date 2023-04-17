@@ -38,7 +38,7 @@
 
 <script>
 import SignAge from '../components/SignAge.vue';
-import SigNage from '../components/SignAge.vue'
+
 export default {
   name: 'HelloWorld',
   props: {
