@@ -1,18 +1,17 @@
 <template>
-  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+
   <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <!-- <SigNage /> -->
+
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import SigNage from './components/SignAge.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    SigNage
+    HelloWorld
   }
 }
 </script>

@@ -2,7 +2,7 @@
   <div class="hello">
     <div class="container">
   <div class="content">
-<SignAge/>
+<SigNage />
   </div>
 </div>
 
@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import SignAge from '../components/SignAge.vue';
+import SigNage from '../components/SigNage.vue';
 
 export default {
   name: 'HelloWorld',
@@ -45,8 +45,7 @@ export default {
     msg: String
   },
   components: {
-    SigNage,
-    SignAge
+    SigNage
 }
 }
 </script>
