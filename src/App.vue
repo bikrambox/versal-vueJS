@@ -12,7 +12,8 @@ import Glassmorphism from './components/Glassmorphism.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Glassmorphism
   }
 }
 </script>
