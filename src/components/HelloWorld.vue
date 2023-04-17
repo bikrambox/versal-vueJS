@@ -1,5 +1,11 @@
 <template>
   <div class="hello">
+    <div class="container">
+  <div class="content">
+<SignAge/>
+  </div>
+</div>
+
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br>
@@ -31,16 +37,22 @@
 </template>
 
 <script>
+import SignAge from '../components/SignAge.vue';
+import SigNage from '../components/SignAge.vue'
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
-  }
+  },
+  components: {
+    SigNage,
+    SignAge
+}
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
 h3 {
   margin: 40px 0 0;
 }
@@ -55,4 +67,18 @@ li {
 a {
   color: #42b983;
 }
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.content {
+  max-width: 800px;
+  width: 24%;
+  /* padding: 3px; */
+  text-align: center;
+}
+
 </style>
